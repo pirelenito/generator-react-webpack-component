@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-react-webpack-component' ]; then cd .. && eval "mv $currentfolder generator-react-webpack-component" && cd generator-react-webpack-component; fi
