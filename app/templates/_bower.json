@@ -1,6 +1,19 @@
 {
-  "name": "package",
-  "version": "0.0.0",
-  "dependencies": {}
+  "name": "<%= slug %>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ]
 }
-

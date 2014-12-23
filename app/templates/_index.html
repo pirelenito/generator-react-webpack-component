@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title><%= appname %> Demo</title>
+</head>
+<body>
+  <div id="main"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+  <script src="<%= slug %>.js"></script>
+  <script>
+    /* jshint undef:false */
+    React.render(React.createElement(<%= libname %>), document.getElementById('main'));
+  </script>
+</body>
+</html>
