@@ -10,8 +10,11 @@ Although you might use this generator to create a big applications, its focus it
 
 * No Grunt;
 * No Gupl;
+* [EditorConfig](http://editorconfig.org/) already setup;
 * Uses `npm` as the task runner;
-* Testing and linting support with [Karma](http://karma-runner.github.io/), [JSHint](http://jshint.com/) and [JSXHint](https://github.com/STRML/JSXHint);
+* Development server with live-reload `npm run dev`;
+* Testing and linting support through [Karma](http://karma-runner.github.io/), [JSHint](http://jshint.com/) and [JSXHint](https://github.com/STRML/JSXHint);
+* Continuous test execution on file changes `npm run watch-test`.
 
 ## Getting Started
 
