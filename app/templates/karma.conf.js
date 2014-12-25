@@ -15,7 +15,8 @@ module.exports = function(config) {
       'node_modules/react/dist/react-with-addons.js',
 
       'spec/spec-helper.js',
-      'spec/**/*.spec.*'
+      'spec/**/*.spec.*',
+      { pattern: 'lib/**/*', watched: true, included: false }
     ],
 
     preprocessors: {

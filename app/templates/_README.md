@@ -21,6 +21,7 @@ require(['react', '<%= libname %>'], function(React, <%= libname %>) {
 
 ## Development
 
+* Development server `npm run dev`.
+* Continuously run tests on file changes `npm run watch-test`;
 * Run tests: `npm test`;
 * Build `npm run build`;
-* Development server `npm run dev`.
