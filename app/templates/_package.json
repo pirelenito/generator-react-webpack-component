@@ -7,7 +7,7 @@
     "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
     "build": "./node_modules/.bin/webpack -p",
     "rename-css-bower-dependencies": "find bower_components -name '*.css' | sed -e 'p;s/.css$/.scss/' | xargs -n2 mv",
-    "dev": "./node_modules/.bin/webpack-dev-server",
+    "dev": "./node_modules/.bin/webpack-dev-server --inline --hot",
     "postinstall": "bower install"
   },
   "author": "",
