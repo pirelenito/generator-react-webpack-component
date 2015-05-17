@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "<%= appname %>",
   "scripts": {
-    "test": "jsxhint lib/ spec/ && jshint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
+    "test": "eslint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
     "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
     "build": "webpack -p",
     "rename-css-bower-dependencies": "find bower_components -name '*.css' | sed -e 'p;s/.css$/.scss/' | xargs -n2 mv",
@@ -12,15 +12,16 @@
   },
   "author": "",
   "license": "BSD",
-    "devDependencies": {
+  "devDependencies": {
     "babel-core": "~5.4.3",
+    "babel-eslint": "^3.1.4",
     "babel-loader": "~5.1.2",
     "css-loader": "~0.12.1",
     "es5-shim": "~4.1.0",
+    "eslint": "^0.21.1",
+    "eslint-plugin-react": "^2.3.0",
     "jasmine": "~2.2.1",
     "jasmine-core": "~2.2.0",
-    "jshint": "~2.6.0",
-    "jsxhint": "~0.15.0",
     "karma": "~0.12.31",
     "karma-jasmine": "~0.3.5",
     "karma-phantomjs-launcher": "~0.1.4",
