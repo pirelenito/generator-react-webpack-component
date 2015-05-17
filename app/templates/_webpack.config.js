@@ -27,8 +27,8 @@ module.exports = {
           'includePaths[]=' + (path.resolve(__dirname, './node_modules'))
       },
       {
-        test: /\.jsx$/,
-        loader: 'babel-loader'
+        test: /(\.js)|(\.jsx)$/,
+        exclude: /node_modules/
       }
     ]
   }
