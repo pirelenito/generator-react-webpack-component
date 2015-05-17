@@ -28,7 +28,12 @@ module.exports = {
       },
       {
         test: /(\.js)|(\.jsx)$/,
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+          optional: ['runtime'],
+          stage: 0
+        }
       }
     ]
   }
