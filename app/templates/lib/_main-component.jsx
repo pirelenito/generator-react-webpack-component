@@ -1,10 +1,8 @@
-var React = require("react");
+import React from 'react';
+import './<%= slug %>.scss';
 
 
-require("./<%= slug %>.scss");
-
-
-module.exports = React.createClass({
+export default React.createClass({
   render: function() {
     return <div className="<%= slug %>"></div>;
   }

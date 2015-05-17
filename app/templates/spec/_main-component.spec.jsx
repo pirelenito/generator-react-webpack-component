@@ -1,18 +1,16 @@
-var React = require('react');
-var TestUtils = React.addons.TestUtils;
-var <%= libname %> = require('../lib/<%= slug %>.jsx');
+import React from 'react/addons';
+import <%= libname %> from '../lib/<%= slug %>.jsx';
 
-
-describe("<%= libname %>", function() {
+describe('<%= libname %>', function() {
   var component;
 
   beforeEach(function() {
-    component = TestUtils.renderIntoDocument(
-      <<%= libname %> name="Jonh"/>
+    component = React.addons.TestUtils.renderIntoDocument(
+      <<%= libname %>/>
     );
   });
 
-  it("should render", function() {
+  it('should render', function() {
     expect(component.getDOMNode().className).toEqual('<%= slug %>');
   });
 });
