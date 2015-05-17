@@ -14,7 +14,7 @@ Although you might use this generator to create a big applications, its focus it
 * [EditorConfig](http://editorconfig.org/) already setup;
 * Uses `npm` as the task runner;
 * Development server with live-reload `npm run dev`;
-* Testing and linting support through [Karma](http://karma-runner.github.io/)and [ESLint](http://eslint.org/);
+* Testing and linting support through [Karma](http://karma-runner.github.io/) and [ESLint](http://eslint.org/);
 * Continuous test execution on file changes `npm run watch-test`.
 
 ## Getting Started
