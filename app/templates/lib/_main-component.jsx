@@ -4,6 +4,6 @@ import './<%= slug %>.scss';
 
 export default React.createClass({
   render: function() {
-    return <div className="<%= slug %>"></div>;
+    return <div className="<%= slug %>">Hello World</div>;
   }
 });
