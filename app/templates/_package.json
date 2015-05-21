@@ -12,6 +12,11 @@
   },
   "author": "",
   "license": "BSD",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component"
+  ],
   "devDependencies": {
     "babel-core": "~5.4.3",
     "babel-eslint": "^3.1.4",

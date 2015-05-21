@@ -16,6 +16,7 @@ Although you might use this generator to create a big applications, its focus it
 * Development server with live-reload `npm run dev`;
 * Testing and linting support through [Karma](http://karma-runner.github.io/) and [ESLint](http://eslint.org/);
 * Continuous test execution on file changes `npm run watch-test`.
+* `react-component` keyword. Allowing the component to be listed on http://react-components.com/ and https://react.parts/
 
 ## Getting Started
 
