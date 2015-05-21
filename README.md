@@ -43,6 +43,10 @@ yo react-webpack-component
 
 If you'd like to get to know Yeoman better, check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
+## Acknowledgments
+
+I've finally figured out how to make source-maps work thanks to [Testing ReactJS Components with Karma and Webpack ](https://www.codementor.io/reactjs/tutorial/test-reactjs-components-karma-webpack) by [Justin Woo](https://github.com/kimagure).
+
 ## License
 
 MIT
