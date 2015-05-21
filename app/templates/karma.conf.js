@@ -21,10 +21,10 @@ module.exports = function(config) {
 
     preprocessors: {
       // add webpack as preprocessor
-      'spec/**/*.spec.*': ['webpack']
+      'spec/**/*.spec.*': ['webpack', 'sourcemap']
     },
 
-    webpack: require('./webpack.config.js'),
+    webpack: loadWebpackConfig(),
 
     webpackServer: {
       noInfo: true
@@ -33,3 +33,13 @@ module.exports = function(config) {
     singleRun: true
   });
 };
+
+
+/**
+  Loads configuration while ensuring sounce-map is enabled
+ */
+function loadWebpackConfig () {
+  var webpackConfig = require('./webpack.config.js');
+  webpackConfig.devtool = 'inline-source-map';
+  return webpackConfig;
+}
