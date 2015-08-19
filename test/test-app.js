@@ -21,7 +21,7 @@ describe('react-webpack-component:app', function () {
       'bower.json',
       'package.json',
       '.editorconfig',
-      '.jshintrc'
+      '.eslintrc'
     ]);
   });
 });
