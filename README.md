@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This generator is no longer under maintenance and instead it is recommend that you use more modern solutions such as [Sagui](https://github.com/saguijs/sagui).
+
+However, let me know if you are interested in maintaining and we can maybe find a way forward.
+
 # generator-react-webpack-component
 
 A [Yeoman](http://yeoman.io) generator to create small, reusable [React](http://facebook.github.io/react/) components using [webpack](http://webpack.github.io/) and [Babel](http://babeljs.io/) as the build tool.
