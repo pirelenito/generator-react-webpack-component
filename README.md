@@ -10,7 +10,7 @@ Although you might use this generator to create a big applications, its focus it
 
 * ES6 and ES7 syntax support through [Babel](http://babeljs.io/);
 * No Grunt;
-* No Gupl;
+* No Gulp;
 * [EditorConfig](http://editorconfig.org/) already setup;
 * Uses `npm` as the task runner (ex: `npm run build`);
 * Development server with live-reload `npm run dev`;
